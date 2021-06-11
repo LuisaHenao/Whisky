@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_inicio"
+    tools:context=".informacion_destileria">
+
+    <ec.dina.btefonts.TextViewFonts
+        android:id="@+id/textView23"
+        android:layout_width="241dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:text="Cantidad de lotes"
+        android:textColor="#1B1A1A"
+        android:textSize="18sp"
+        app:dm_font="segoe_print"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFechaDes" />
+
+    <ec.dina.btefonts.TextViewFonts
+        android:id="@+id/txtCantidadLotes"
+        android:layout_width="241dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:text="Cantidad de lotes"
+        android:textColor="#1B1A1A"
+        android:textSize="18sp"
+        app:dm_font="segoe_print"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <ec.dina.btefonts.TextViewFonts
+        android:id="@+id/textView21"
+        android:layout_width="241dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:text="Fecha destileria"
+        android:textColor="#1B1A1A"
+        android:textSize="18sp"
+        app:dm_font="segoe_print"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombreDesInfo" />
+
+    <ec.dina.btefonts.TextViewFonts
+        android:id="@+id/txtFechaDes"
+        android:layout_width="241dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:text="Fecha destileria"
+        android:textColor="#1B1A1A"
+        android:textSize="18sp"
+        app:dm_font="segoe_print"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <ec.dina.btefonts.TextViewFonts
+        android:id="@+id/textView18"
+        android:layout_width="241dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="20dp"
+        android:text="Información específica destileria"
+        android:textAlignment="center"
+        android:textColor="#853C01"
+        android:textSize="24sp"
+        app:dm_font="segoe_print"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ec.dina.btefonts.TextViewFonts
+        android:id="@+id/textView19"
+        android:layout_width="241dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:text="Nombre:"
+        android:textColor="#1B1A1A"
+        android:textSize="18sp"
+        app:dm_font="segoe_print"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <ec.dina.btefonts.TextViewFonts
+        android:id="@+id/txtNombreDesInfo"
+        android:layout_width="241dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:text="Nombre:"
+        android:textColor="#1B1A1A"
+        android:textSize="18sp"
+        app:dm_font="segoe_print"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+</androidx.constraintlayout.widget.ConstraintLayout>

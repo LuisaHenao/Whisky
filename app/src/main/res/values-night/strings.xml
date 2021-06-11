@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fechaW">Fecha</string>
+    <string name="nombre_info_w">Nombre:</string>
+    <string name="nombreiw">Nombre:</string>
+    <string name="lote_w">Lote</string>
+    <string name="ir_a_la_pagina">Ir a la pagina</string>
+    <string name="lote_inw">Lote:</string>
+</resources>

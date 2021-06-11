@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_inicio"
+    tools:context=".informacion_whiky">
+
+    <ec.dina.btefonts.TextViewFonts
+        android:id="@+id/txtLoteWhysky"
+        android:layout_width="241dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/lote_w"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        app:dm_font="segoe_print"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtlabel" />
+
+    <ec.dina.btefonts.TextViewFonts
+        android:id="@+id/txtlabel"
+        android:layout_width="241dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/lote_inw"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        app:dm_font="segoe_print"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFechaWisky" />
+
+    <ec.dina.btefonts.TextViewFonts
+        android:id="@+id/textView12"
+        android:layout_width="241dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="134dp"
+        android:text="@string/fecha"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        app:dm_font="featherScript"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <ec.dina.btefonts.TextViewFonts
+        android:id="@+id/txtFechaWisky"
+        android:layout_width="241dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/fechaW"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        app:dm_font="segoe_print"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <ec.dina.btefonts.TextViewFonts
+        android:id="@+id/textView9"
+        android:layout_width="241dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/informaci_n_espec_fica_whisky"
+        android:textAlignment="center"
+        android:textColor="#853C01"
+        android:textSize="24sp"
+        app:dm_font="segoe_print"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ec.dina.btefonts.ButtonFonts
+        android:id="@+id/btnPagina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#9F6F60"
+        android:text="@string/ir_a_la_pagina"
+        android:textColor="#FFFFFF"
+        app:dm_font="segoe_print"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLoteWhysky" />
+</androidx.constraintlayout.widget.ConstraintLayout>

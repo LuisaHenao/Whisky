@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Whiskey</string>
+    <string name="fecha">Fecha:</string>
+    <string name="informaci_n_espec_fica_whisky">Información específica whisky</string>
+    <string name="fecha_w">Fecha</string>
+    <string name="fechaW">Fecha</string>
+    <string name="nombre_info_w">Nombre:</string>
+    <string name="nombreiw">Nombre:</string>
+    <string name="lote_w">Lote</string>
+    <string name="ir_a_la_pagina">Ir a la pagina</string>
+    <string name="lote_inw">Lote:</string>
+</resources>
